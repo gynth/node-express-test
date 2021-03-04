@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 /* const basic = require('./router/index'); */
 const cors = require('cors');
-/*const request = require('request');*/
+const request = require('request');
 
 app.use(express.json());
 app.use(cors());
